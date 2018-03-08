@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
 img {
   background-color: black;
   border-radius: 1px 50%;
   margin: 10%;
 }
 body{
-  background-color: red;
+  background-color: coral;
 }

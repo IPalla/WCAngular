@@ -7,6 +7,10 @@ const routes: Routes = [
   { path: 'inicio', component: InicioComponent},
   { path: 'acercade', component: AcercadeComponent},
   { path: 'catalogo', loadChildren: './catalogo/catalogo.module#CatalogoModule'},
+  { path: 'comunicaciones', loadChildren: './comunicaciones/comunicaciones.module#ComunicacionesModule'},
+
+  { path: 'agenda', loadChildren: './agenda/agenda.module#AgendaModule'},
+  { path: 'impresora', loadChildren: './impresora/impresora.module#ImpresoraModule'},
   { path: '', pathMatch: 'full', redirectTo: 'inicio' }
 ];
 
