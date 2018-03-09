@@ -23,7 +23,10 @@ export class FormTdComponent implements OnInit {
       isColor: false,
       isClaro: false,
       dpto: {id: '', name: ''}
-    }
+    };
+  }
+  enviar(rq) {
+    console.log(rq);
   }
 
 }

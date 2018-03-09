@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-header">
+    <h4>Busca en Google</h4>
+  </div>
+  <div class="card-body">
+   <div class="form-group">
+     <label for="clave">Clave</label>
+     <input type="text"
+       class="form-control" name="clave" id="clave" placeholder="" [(ngModel)]="clave">
+       <button type="submit" (click)="buscar()">Buscar</button>
+       <!-- <button type="submit" (click)="buscarAsincrono()">Buscar Asinc</button> -->
+   </div>
+  </div>
+  <div class="card-footer text-muted">
+    <ul class="list-group">
+      <li *ngFor= "let item of res" class="list-group-item"> {{item}} </li>
+    </ul>
+  </div>
+</div>
